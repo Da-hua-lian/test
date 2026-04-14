@@ -16,7 +16,7 @@ export function initWebSocket() {
     if (socket) return; // 防止重复连接
 
     // 1. 建立连接
-    socket = new WebSocket('ws://100.66.2.33:8080'); // 以后换成真实后端地址
+    socket = new WebSocket('wss://marauding-pull-sublime.ngrok-free.dev/');
 
     // 2. 连接成功时的回调
     socket.onopen = function() {
