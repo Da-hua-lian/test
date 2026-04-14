@@ -10,6 +10,8 @@ function generateFakeData() {
 }
 // src/websocket/socket.js
 
+
+
 let socket = null;
 export const wsData = ref(null); 
 export function initWebSocket() {
